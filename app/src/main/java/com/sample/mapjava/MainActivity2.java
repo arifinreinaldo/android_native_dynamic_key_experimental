@@ -42,7 +42,7 @@ public class MainActivity2 extends AppCompatActivity {
             ApplicationInfo info = packageManager.getApplicationInfo(
                     getApplicationContext().getPackageName(),
                     PackageManager.GET_META_DATA);
-            info.metaData.putString("com.google.android.geo.API_KEY", "AIzaSyBhGMRT7WQXKfwTM9QOBTkw8kJ8qqJrFIc");
+            info.metaData.putString("com.google.android.geo.API_KEY", "");
         } catch (Exception e) {
             Log.d("TAG", "createMapView: " + e.toString());
         }
